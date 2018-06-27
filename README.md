@@ -31,6 +31,5 @@ Dylan Coots
 
 ### Code Test
 
-Any details you'd like to mention about your code test.
-
+I was able to get most of the code test requirements completed. I haven't been using html/css/js all that much with my current job so I spent some time refreshing my memory. I picked back up on it quickly (last time I did web dev. was a few years ago) and I got most of it done to the best of my ability. Aside from having difficulty remembering some of the 'gotchas' of html/css, this wasn't all that bad. 
 ---
