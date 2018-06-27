@@ -1,0 +1,65 @@
+/* Columns */
+body {
+  padding: 5%;
+  display: inline-block;
+}
+.column {
+    width: 40ch;
+    float: left;
+    overflow: hidden;
+    padding-right: 7ch;
+}
+
+.column:last-of-type {
+  padding-right: 0%;
+}
+.row {
+  display: inline-block;
+}
+
+/* Button */
+.button {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 1ch;
+
+}
+
+/* Middle of Page */
+#contact {
+  background-color: grey;
+  size: 50px;
+  text-align: center;
+  color: white;
+  padding-bottom: 5ch;
+  padding-top: 2ch;
+  margin-top: 7ch;
+}
+
+#form {
+  display: inline-block;
+  text-align: left;
+}
+
+.t {
+  height: 300px;
+}
+
+.colorBanner {
+  background-color: grey;
+  height: 80px;
+}
+
+input[type="text"] {
+  width: 50ch;
+  padding-bottom: 2ch;
+}
+
+textarea {
+  resize: none;
+}
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
