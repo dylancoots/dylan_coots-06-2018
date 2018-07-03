@@ -1,0 +1,88 @@
+
+html {
+  font-family: 'Trebuchet MS'
+}
+
+body {
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 50ch;
+  padding-bottom: 2ch;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  margin-top: 10ch;
+  background: black;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Classes */
+.column {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 1ch;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+      width: 100%
+  }
+}
+
+.column:last-of-type {
+  padding-right: 0ch;
+}
+
+.row {
+  display: inline-block;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.pgBtm {
+  color: black;
+  padding: 1ch;
+  display: inline-block;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  width: 12ch;
+}
+
+.colorBanner {
+  background-color:lightgray;
+  height: 80px;
+}
+
+.contact {
+  display: inline-block;
+  background-color: lightgray;
+  text-align: center;
+  color: white;
+  padding-bottom: 10ch;
+  padding-top: 2ch;
+  width: 100%;
+  margin-top: 2ch;
+}
+
+.form {
+  display: inline-block;
+  text-align: left;
+}
